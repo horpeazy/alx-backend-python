@@ -4,6 +4,7 @@
 """
 import math
 
+
 def floor(n: float) -> int:
     """ computes and returns the floor value of n
         n(float): number to floor

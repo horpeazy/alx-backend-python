@@ -5,9 +5,10 @@
 """
 from typing import Callable
 
+
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """ wrapper function that returns a multiplier func
-        multiplier(float): multiplier 
+        multiplier(float): multiplier
         return(function): multiplier function
     """
     def multiplier_func(n: float) -> float:

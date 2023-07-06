@@ -5,6 +5,7 @@
 """
 from typing import Iterable, Sequence, Tuple, List
 
+
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """ generates a tuple from a list of strings
         lst(list): list containing strings
