@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env python3
 """ this module contains a function element_length that
     converts a list of strings to a list of tuples conating the string
     and it's length

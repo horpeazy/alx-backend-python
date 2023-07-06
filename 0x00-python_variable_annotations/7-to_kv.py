@@ -7,7 +7,7 @@
 from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union[int | float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """ create and returns a tuple from args
         k(str): string argument
         v(int | float): int ot float argument
